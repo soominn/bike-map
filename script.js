@@ -1,6 +1,6 @@
 // const serviceKey = '5062656b4863686f38377150657242'; // 127.0.0.1 용
 const serviceKey = '645043417563686f3830637573626c'; // Github Pages 용
-const baseUrl = `http://openapi.seoul.go.kr:8088/${serviceKey}/json/bikeList`;
+const baseUrl = `https://openapi.seoul.go.kr:8088/${serviceKey}/json/bikeList`;
 const pageSize = 1000;
 
 let map;
